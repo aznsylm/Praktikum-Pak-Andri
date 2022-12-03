@@ -1,0 +1,4 @@
+"#praktikumalgo" 
+"# praktikumalgo" 
+"# praktikumalgo" 
+"# tiket" 
