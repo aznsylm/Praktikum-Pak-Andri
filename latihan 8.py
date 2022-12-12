@@ -1,14 +1,14 @@
 #PROGRAM PERTAMA
 
-# c = int(input("Masukkan berapa banyak data yang akan diinput : "))
-# dict = {}
+c = int(input("Masukkan berapa banyak data yang akan diinput : "))
+dict = {}
 
-# for i in range (c):
-#     a = int(input("masukkan data key : "))
-#     b = input("masukkan data : ")
+for i in range (c):
+    a = int(input("masukkan data key : "))
+    b = input("masukkan data : ")
 
-#     dict[a] = b
-# print(dict)
+    dict[a] = b
+print(dict)
 
 # PROGRAM KEDUA
 # def bubble
