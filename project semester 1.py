@@ -16,14 +16,19 @@ for menu1 in listProduk:
         print(menu1)
 def produk():        
         pilih = int(input('Masukkan pilihan anda: '))
-        if pilih == 1:
-            print('harganya mahal yak!!')
+        if pilih == 1:    
+            print('KAOS (50k/pcs)')
+            jumlahBaju = int(input("BERAPA BANYAK KAOS: "))
+            produk() 
         elif pilih == 2:
-            print('KAMU MAU BELI JAKET???')
+            print('JAKET (120k/pcs)')
+            jumlahJaket = int(input("BERAPA BANYAK JAKET: "))
         elif pilih == 3:
-            print('KAMU MAU BELI GELANG???')
+            print('GELANG (10k/pcs)')
+            jumlahGelang = int(input("BERAPA BANYAK GELANG: "))
         elif pilih == 4:
             print('KAMU MAU BELI TOPI???')
+            jumlahTopi = int(input("BERAPA BANYAK TOPI: "))
         else:
             print("ULANGI PILIHAN PRODUK\n")
             produk()
