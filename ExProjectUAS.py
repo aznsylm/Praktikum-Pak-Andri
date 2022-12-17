@@ -566,7 +566,6 @@ def pertama():
                             uang=int(input('\nSilahkan masukan uang sebesar Rp.200000: '))
                             if  uang > 200000:
                                 hasil = uang - 200000
-                                print('Kembalian uang anda',hasil)
                                 nontunai()
                             elif uang < 200000:
                                 print('MOHON MAAF, UANG ANDA TIDAK MENCUKUPI')
@@ -628,7 +627,6 @@ def pertama():
                             uang=int(input('\nSilahkan masukan uang sebesar Rp.480000: '))
                             if  uang > 480000:
                                 hasil = uang - 480000
-                                print('Kembalian uang anda',hasil)
                                 nontunai()
                             elif uang < 480000:
                                 print('MOHON MAAF, UANG ANDA TIDAK MENCUKUPI')
@@ -697,7 +695,6 @@ def pertama():
                             uang=int(input('\nSilahkan masukan uang sebesar Rp.180000: '))
                             if  uang > 180000:
                                 hasil = uang - 180000
-                                print('Kembalian uang anda',hasil)
                                 nontunai()
                             elif uang < 180000:
                                 print('MOHON MAAF, UANG ANDA TIDAK MENCUKUPI')
