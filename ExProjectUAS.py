@@ -38,9 +38,9 @@ def pertama():
 
     def welcome() :
         awal=input('\nApakah anda ingin melakukan pemesanan tiket YA/TIDAK : ')
-        if awal=='YA' or 'ya':
+        if awal=='YA' or awal == 'ya':
             print('')
-        elif awal=='TIDAK' or 'tidak' :
+        elif awal=='TIDAK' or awal == 'tidak' :
             pertama()
         else:
             print('Pilihan tidak sesuai!')

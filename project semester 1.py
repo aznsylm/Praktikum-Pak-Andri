@@ -15,7 +15,7 @@ listProduk = ['1.KAOS/50k', '2.JAKET/120k', '3.GELANG/10k', '4.TOPI/30k']
 for menu1 in listProduk:
         print(menu1)
 def produk():        
-        pilih = input('Masukkan pilihan anda: ')
+        pilih = int(input('Masukkan pilihan anda: '))
         if pilih == 1:
             print('harganya mahal yak!!')
         elif pilih == 2:
@@ -25,7 +25,7 @@ def produk():
         elif pilih == 4:
             print('KAMU MAU BELI TOPI???')
         else:
-            "ULANGI PILIHAN PRODUK"
+            print("ULANGI PILIHAN PRODUK\n")
             produk()
 produk()
 
