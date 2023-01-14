@@ -2,7 +2,9 @@
 # #    Materi LIST (type data)
 
 # # 1 Akses nilai dalam list python
+
 # # 2 Update nilai dalam list pythoon
+
 # # list = ['sistem', 'teknik', 2008, 2020]
 # # print(list)
 
